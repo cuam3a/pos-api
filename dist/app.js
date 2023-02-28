@@ -19,3 +19,4 @@ app.use(routers_1.router);
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
+module.exports = app;
